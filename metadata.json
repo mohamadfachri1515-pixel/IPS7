@@ -1,0 +1,6 @@
+{
+  "name": "Clash of Champions: Tantangan Sumber Daya Alam",
+  "description": "Game kuis edukasi interaktif IPS/Geografi menjodohkan 50 soal sumber daya alam dan bahan tambang bertema kartu fantasi Clash of Champions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

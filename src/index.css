@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-rajdhani: 'Rajdhani', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    background-color: #020B09;
+    color: #F5F2E8;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+.font-title {
+  font-family: 'Cinzel', Georgia, serif;
+  letter-spacing: 0.05em;
+}
+
+.font-tech {
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+/* Custom glow effects matching Clash of Champions template */
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.4), inset 0 0 10px rgba(0, 217, 255, 0.2);
+}
+
+.glow-cyan-lg {
+  box-shadow: 0 0 25px rgba(0, 217, 255, 0.6), inset 0 0 15px rgba(0, 217, 255, 0.3);
+}
+
+.glow-gold {
+  box-shadow: 0 0 15px rgba(214, 181, 109, 0.4), inset 0 0 8px rgba(214, 181, 109, 0.2);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.6), inset 0 0 10px rgba(16, 185, 129, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.6), inset 0 0 10px rgba(239, 68, 68, 0.3);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F5E5BE 40%, #D6B56D 80%, #9B7E3E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-silver-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, #E2E8F0 40%, #94A3B8 80%, #475569 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-cyan-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, #A5F3FC 40%, #00D9FF 80%, #0891B2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020B09;
+}
+::-webkit-scrollbar-thumb {
+  background: #003831;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 217, 255, 0.3);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #005247;
+}
